@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 
+<! milestone project one homepage>
 <html lang="EN-us">
 	<head>
 		<meta charset="utf-8">
@@ -7,34 +8,41 @@
 		
 		<link href="assets/css/style.css" rel="stylesheet" type="text/css" />
 		
+		<script src="https://kit.fontawesome.com/2400e1badf.js" crossorigin="anonymous"></script>
+		
 		<title>Oliver Anderson - Videogame Developer</title>
 	</head>
 	<body>
 		<header id="site-header">
-			<div id="logo">
-				<!--- float left // heading and subheading // (to act as website logo) --->
-				<h1>Oliver Anderson</h1>
-				<h2>Videogame Developer</h2>
+			<div>
+				<div id="logo">
+					<!--- float left // heading and subheading // (to act as website logo) --->
+					<h1>Oliver Anderson</h1>
+					<h2>Videogame Developer</h2>
+				</div>
+				
+				<nav>
+					<ul id="site-nav">
+						<li>
+							<a href="index.html">Home</a>
+						</li>
+						
+						<li  class="nav-active">
+							<a href="#">About Me</a>
+						</li>
+						
+						<li >
+							<a href="#">Contact</a>
+						</li>
+						
+						<li><!---Social Links - ??? --->
+						</li>
+					</ul>
+				</nav>
 			</div>
 			
-			<nav>
-				<ul id="page-nav">
-					<li class="nav-active">
-						<a href="index.html">Home</a>
-					</li>
-					<li>
-						<a href="#">About</a>
-					</li>
-					<li><!---Social Links - ??? --->
-						<ul>
-							<li>Sketchfab</li>
-							<li>Instagram</li>
-							<li>Artstation</li>
-							<li>Twitter</li>
-						</ul>
-					</li>
-				</ul>
-			</nav>
+			<hr style="clear: both;">
+			
 			<nav>
 				<ul id="page-nav">
 					<li>
@@ -50,23 +58,44 @@
 			</nav>
 		</header>
 		
-		<section class="entry" id="programmer-about">
-			Programmer
-		</section>
-		
-		<section class="entry" id="designer-about">
-			Designer
-		</section>
-		
-		<section class="entry" id="artist-about">
-			Artist
-		</section>
+		<div id="section-container">
+			<section id="programmer-about">
+				Programmer
+			</section>
+			
+			<section id="designer-about">
+				Designer
+			</section>
+			
+			<section id="artist-about">
+				Artist
+			</section>
+		</div>
 		
 		<footer>
-			<!---may be position: fixed, may just be a page ender, unsure--->
-			Contact link/info
 			
-			Social Links
+			<ul id="socials">
+				<li>
+					<a href="https://sketchfab.com/Art_Is_Scary" target="_blank"> <!--- sketchfab --->
+						<i class="fa-solid fa-cube"></i>
+					</a>
+				</li>
+				<li>
+					<a href="https://www.instagram.com/art_is_scaryy/?hl=en" target="_blank"> <!--- instagram --->
+						<i class="fa-brands fa-instagram"></i>
+					</a>
+				</li>
+				<li>
+					<a href="https://www.artstation.com/artisscary" target="_blank"> <!--- artstation --->
+						<i class="fa-brands fa-artstation"></i>
+					</a>
+				</li>
+				<li>
+					<a href="https://github.com/Ollie-Anderson" target="_blank"> <!--- github --->
+						<i class="fa-brands fa-github"></i>
+					</a>
+				</li>
+			</ul>
 		</footer>
 	</body>
 </html>
