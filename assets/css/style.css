@@ -5,37 +5,3 @@
   padding: 0;
   margin: 0;
 }
-
-.entry {
-	height: calc(100vh - 60px); /* the 60 px here needs to be replaced with the final header height based on how the header is calculated.*/
-	padding-top: 600px;
-}
-
-
-#site-header {
-	position: fixed;
-	top: 0;
-	height: 60px;
-	width: 100%;
-	border: solid 1px #000;
-	background-color: #000;
-}
-
-#logo {
-	position: relative;
-	clear: both;
-	float: left;
-	background-color: #fff;
-}
-
-#site-nav {
-	float: right;
-}
-
-#page-nav {
-	clear: both;
-}
-
-#page-nav li {
-	display: inline;
-}
