@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
 * {
   border: 0;
@@ -10,18 +11,17 @@ body {
 	font-family: lato;
 }
 
-section {
-	height: calc(100vh - 180px);
-	border: solid 1px #000;
-}
+
+
+/*--- Header Overall Styling ---*/
 
 #site-header {
+	wifth: 100vw;
 	position: sticky;
 	padding: 10px 30px 0;
 	top: 0;
 	left: 0;
-	width: 100%;
-	border: solid 1px #000;
+	Background: #110c6e
 }
 
 
@@ -30,7 +30,26 @@ section {
 
 #logo {
 	float: left;
-	padding-bottom: 10px
+	padding-bottom: 10px;
+	color: #fff;
+	font-family: oswald;
+}
+
+#logo h1 {
+	letter-spacing: 4px;
+	font-size: 240%;
+	line-height: 50px;
+	font-weight: 500;
+}
+
+#logo h2 {
+	font-size: 100%;
+	letter-spacing: 6px;
+	text-align: justify;
+	line-height: 10px;
+	font-weight: 200;
+	margin-left: 2px;
+	font-family: raleway;
 }
 
 
@@ -40,13 +59,17 @@ section {
 #site-nav {
 	float: right;
 	text-align: right;
-	font-size: 150%;
+	font-size: 130%;
 	list-style-type: none;
-	letter-spacing: 4px;
+	letter-spacing: 5px;
+	color: #fff;
+	margin-top: 25px;
+	font-family: raleway;
+	font-weight: bold;
 }
 
 #site-nav > li {
-	display: inline;
+	display: inline-block;
 	margin-right: 30px;
 	
 }
@@ -62,7 +85,7 @@ section {
 
 
 .nav-active {
-	/* text-decoration: underline;  */
+	text-decoration: underline;
 	
 }
 
@@ -70,19 +93,24 @@ section {
 
 #page-nav {
 	clear: both;
+	width: 90vw;
+	margin: 0 auto;
 	list-style-type: none;
 	letter-spacing: 4px;
 	text-align: center;
-	font-size: 150%
-	
+	font-size: 110%;
+	padding-bottom: 5px;
 }
 
 #page-nav li {
 	display: inline;
-	padding-right: 10%;
-	padding-left: 10%;
+	padding-right: 7%;
+	padding-left: 7%;
 	text-align: center;
-	border: solid 1px black;
+	font-family: raleway;
+	font-weight: 300;
+	line-height: 20px;
+	color: #fff
 }
 
 
@@ -90,10 +118,16 @@ section {
 
 /*--- Main Body Styling ---*/
 
-#section-container {
-	margin-bottom: 100px;;
+#content-outer {
+	margin-bottom: 50px;
 }
 
+.section-outer {
+	height: calc(100vh - 150px);
+	border: solid 1px #000;
+	scroll-margin-top: 107px;
+	background: #777;
+}
 
 
 /*--- Footer Socials Styling ---*/
@@ -104,9 +138,11 @@ section {
 	left: 0;
 	right: 0;
 	bottom: 0;
-	padding: 10px;
+	padding-bottom: 10px;
+	padding-top: 10px;
 	text-align: center;
 	background: #998;
+	height: 30px;
 }
 
 #socials li {

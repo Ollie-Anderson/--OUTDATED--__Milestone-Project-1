@@ -15,27 +15,26 @@
 	<body>
 		<header id="site-header">
 			<div>
-				<div id="logo">
-					<!--- float left // heading and subheading // (to act as website logo) --->
-					<h1>Oliver Anderson</h1>
-					<h2>Videogame Developer</h2>
-				</div>
+				<a href="index.html">
+					<div id="logo">
+						<!--- float left // heading and subheading // (to act as website logo) --->
+						<h1>Oliver Anderson</h1>
+						<h2>Videogame Developer</h2>
+					</div>
+				</a>
 				
 				<nav>
 					<ul id="site-nav">
-						<li>
+						<li class="nav-active">
 							<a href="index.html">Home</a>
 						</li>
 						
-						<li  class="nav-active">
+						<li>
 							<a href="#">About Me</a>
 						</li>
 						
 						<li >
 							<a href="#">Contact</a>
-						</li>
-						
-						<li><!---Social Links - ??? --->
 						</li>
 					</ul>
 				</nav>
@@ -53,46 +52,55 @@
 						</li>
 					<li>
 						<a href="#artist-about">Artist</a>
-						</li>
+					</li>
 				</ul>
 			</nav>
 		</header>
 		
-		<div id="section-container">
-			<section id="programmer-about">
-				Programmer
-			</section>
+		<div id="content-outer">
+			<div class="section-outer" id="programmer-about">
+				<section class="section-inner">
+					Programmer
+				</section>
+			</div>
+			<div class="section-outer" id="designer-about">	
+				<section class="section-inner">
+					Designer
+				</section>
+			</div>
+			<div class="section-outer" id="artist-about">			
+				<section class="section-inner">
+					Artist
+				</section>
 			
-			<section id="designer-about">
-				Designer
-			</section>
-			
-			<section id="artist-about">
-				Artist
-			</section>
+			</div>
 		</div>
 		
 		<footer>
-			
 			<ul id="socials">
 				<li>
-					<a href="https://sketchfab.com/Art_Is_Scary" target="_blank"> <!--- sketchfab --->
+					<a href="https://sketchfab.com/Art_Is_Scary" target="_blank" aria-label="Link to my Sketchfab page."> <!--- sketchfab --->
 						<i class="fa-solid fa-cube"></i>
 					</a>
 				</li>
 				<li>
-					<a href="https://www.instagram.com/art_is_scaryy/?hl=en" target="_blank"> <!--- instagram --->
+					<a href="https://www.instagram.com/art_is_scaryy/?hl=en" target="_blank" aria-label="Link to my Instagram page."> <!--- instagram --->
 						<i class="fa-brands fa-instagram"></i>
 					</a>
 				</li>
 				<li>
-					<a href="https://www.artstation.com/artisscary" target="_blank"> <!--- artstation --->
+					<a href="https://www.artstation.com/artisscary" target="_blank" aria-label="Link to my Artstation page."> <!--- artstation --->
 						<i class="fa-brands fa-artstation"></i>
 					</a>
 				</li>
 				<li>
-					<a href="https://github.com/Ollie-Anderson" target="_blank"> <!--- github --->
+					<a href="https://github.com/Ollie-Anderson" target="_blank" aria-label="Link to my GitHub page."> <!--- github --->
 						<i class="fa-brands fa-github"></i>
+					</a>
+				</li>
+				<li>
+					<a href="https://twitter.com/ArtIsScary" target="_blank" aria-label="Link to my Twitter page.">
+						<i class="fa-brands fa-twitter"></i>
 					</a>
 				</li>
 			</ul>
