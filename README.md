@@ -5,9 +5,24 @@ Oliver Anderson - Videogame Developer
 
 ------
 
-This website is designed to act as a portfolio to showcase my game development work and help me find new projects/potential employment. The website should showcase my work, highlight my skills as a developer, and allow users to contact me about collaborations and projects. 
+This website is designed to act as a game development portfolio to help me grow an audience and find work/projects. It serves to showcase my work and skills as a developer,  allow users to contact me regarding projects, and serve as a blog of what I'm currently working on.
 
-It should also include a blog to showcase what I am currently working on and help me grow an audience for the projects I am working on.
+This website has been created as the first milestone project for Code Institute's  Diploma in Web Application Development. In line with their criteria, my contributions to this site are comprised only of HTML and CSS, with any other functionality (e.g. page scripts) coming from third party libraries. All external code is referenced appropriately. 
 
-This website has been created as the first milestone project for Code Institute's  Diploma in Web Application Development. In line with their criteria, my contributions to this site are only comprised of HTML and CSS, with any other functionality (e.g. JavaScript) coming from third party libraries. All external code is referenced appropriately. 
+------
 
+<div style="width: 100%; text-align:center;"><h4>Project Links</h4></div>
+
+------
+
+<div style="float: left; text-align: right; display: inline-block; margin-left: 10%;"><a href="https://ollie-anderson.github.io/Milestone-Project-1/" target="_blank"><h3>
+    Link to Live Site |
+    </h3></a></div> <div style="float: right; text-align: left; display: inline-block; margin-right: 10%;"><a href="https://github.com/Ollie-Anderson/Milestone-Project-1" target="_blank"><h3>| Link to Github Repo</h3></a></div>
+
+
+------
+
+## Table of Contents
+
+1. [UX Design] (#UX-Design)
+2. 
