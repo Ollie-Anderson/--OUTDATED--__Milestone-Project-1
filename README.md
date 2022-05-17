@@ -33,7 +33,7 @@ This website has been created as the first milestone project for Code Institute'
      - [Surface](#Surface)
 - [Testing](#Testing)
 - [Deployment](#Deployment)
-- [#Credits](#Credits)
+- [Credits](#Credits)
 
 ------
 
