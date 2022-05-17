@@ -141,6 +141,7 @@ body {
 
 .section-outer {
 	height: calc(100vh - 162px);
+	width: 100vw;
 	border-top: solid 1px #000;
 	scroll-margin-top: 110px;
 	background-image: linear-gradient(to bottom right, #00456c, #241d92);

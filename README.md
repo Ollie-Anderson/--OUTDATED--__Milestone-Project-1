@@ -1,9 +1,13 @@
-# Milestone Project 1 CI
- User centric front end website for Code Istitute MP1
+Oliver Anderson - Videogame Developer
+======
 
-## UX
+#### Milestone Project One - User Centric Static Front End
 
-#### Project Goals
+------
 
-The primary goal of this website is to sere as a personal portfolio website for my own game development work. The website will serve as a showcase of my work with detail about my work style and philosophies as a tool to show potential employers or collaborators within the industry. There are two target audiences: my peers within the industry, and potential employers.
+This website is designed to act as a portfolio to showcase my game development work and help me find new projects/potential employment. The website should showcase my work, highlight my skills as a developer, and allow users to contact me about collaborations and projects. 
+
+It should also include a blog to showcase what I am currently working on and help me grow an audience for the projects I am working on.
+
+This website has been created as the first milestone project for Code Institute's  Diploma in Web Application Development. In line with their criteria, my contributions to this site are only comprised of HTML and CSS, with any other functionality (e.g. JavaScript) coming from third party libraries. All external code is referenced appropriately. 
 
