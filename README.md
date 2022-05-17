@@ -24,58 +24,24 @@ This website has been created as the first milestone project for Code Institute'
 
 ## Table of Contents
 
-1. [UX Design](#UX-Design)
-2. 
+- [User Story](#User-Story)
+- [5 Planes](#5-Planes)
+     - [Strategy](#Strategy)
+     - [Scope](#Scope)
+     - [Structure](#Structure)
+     - [Skeleton](#Skeleton)
+     - [Surface](#Surface)
+- [Testing](#Testing)
+- [Deployment](#Deployment)
+- [#Credits](#Credits)
+
+------
 
 
 
 
-
-j
-
-j
-
-j
-
-j
-
-j
-
-j
-
-j
-
-j
-
-jj
-
-j
-
-j
 
 
 
 # UX Design
-
-j
-
-j
-
-j
-
-j
-
-j
-
-j
-
-j
-
-j
-
-j
-
-j
-
-j
 
