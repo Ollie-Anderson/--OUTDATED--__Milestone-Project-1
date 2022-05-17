@@ -24,5 +24,12 @@ This website has been created as the first milestone project for Code Institute'
 
 ## Table of Contents
 
-1. [UX Design] (#UX-Design)
+1. [UX Design](#UX-Design)
 2. 
+
+
+
+
+
+# UX Design
+
