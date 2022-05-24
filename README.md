@@ -32,6 +32,9 @@ This website has been created as the first milestone project for Code Institute'
      - [Skeleton](#Skeleton)
      - [Surface](#Surface)
 - [Testing](#Testing)
+     - [Code Validation](#Code-Validation)
+     - [Bugs](#Bugs)
+
 - [Deployment](#Deployment)
 - [Credits](#Credits)
 
@@ -44,4 +47,28 @@ This website has been created as the first milestone project for Code Institute'
 
 
 # UX Design
+
+
+
+
+
+Bugs
+======
+
+Bugs are created in '[Unresolved](#Unresolved)' as they appear and transferred to '[Resolved](#Resolved])' if and when they are fixed. all bug logs are formatted as follows: 
+
+{Date of Discovery} ###### **Bug Title** ###### {Date of Resolution (if applicable)}
+
+## Resolved
+
+## Unresolved
+
+* {24/05/22} ###### **Z-Index Display Issue on Homepage Slideshow** ###### {}
+  * easy fix with z-index on header but I would like to find the cause of the issue if possible.
+* {24/05/22} ###### **Scroll Margin Issue With Slideshow Functionality** ######{}
+  * might result in scrapping of slideshow in favour of  short reel video looping in background 
+
+
+
+
 

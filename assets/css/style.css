@@ -212,13 +212,13 @@ body {
 	height: 100%;
 	background-color: #e0e0e0;
 	text-align: center;
-	position: relative;
+	/* position: relative; */
 }
 
 .slides {
 	display: flex;
 	overflow-x: scroll;
-	position: relative;
+	/* position: relative; */
 	scroll-becaviour: smooth;
 	scroll-snap-type: x mandatory;
 	height: 100%;
@@ -241,6 +241,8 @@ body {
 	transform: scale(1);
 	scroll-snap-align: center;
 	border: solid 1px black;
+	
+	scroll-margin-top: 10000px;
 }
 
 .slide__text { /* this will eventually be replaced with my slide content. */
@@ -249,6 +251,31 @@ body {
 	font-family: sans-serif;
 }
 
+
+/*---------- Slide Buttons ----------*/
+
+.slide a {
+	/* position: absolute; */
+	top: 48%;
+	width: 35px;
+	height: 35px;
+	border: solid black;
+	border width: 0 4px 4px 0;
+	padding: 3px;
+	box-sizing: border-box;
+}
+
+a.slide-prev {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    left: 5%;
+}
+
+a.slide-next{
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    right: 5%;
+}
 
 /*--- Footer Socials Styling ---*/
 
