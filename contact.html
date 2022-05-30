@@ -14,64 +14,87 @@
 	</head>
 	<body>
 		<header class="site-header">
-				<a href="index.html">
-					<div id="logo">
-						<!--- float left // heading and subheading // (to act as website logo) --->
-						<h1>Oliver Anderson</h1>
-						<h2>Videogame Developer</h2>
-						<hr>
-					</div>
-				</a>
-				
-				<nav>
-					<ul id="site-nav">
-						<li>
-							<a href="index.html">Home</a>
-						</li>
-						
-						<li>
-							<a href="blog.html">Blog</a>
-						</li>
-						
-						<li>
-							<a href="about-me.html">About Me</a>
-						</li>
-						
-						<li class="nav-active">
-							<a href="contact.html">Contact</a>
-						</li>
-					</ul>
-				</nav>
+			<a href="index.html">
+				<div id="logo">
+					<!--- float left // heading and subheading // (to act as website logo) --->
+					<h1>Oliver Anderson</h1>
+					<h2>Videogame Developer</h2>
+					<hr>
+				</div>
+			</a>
+			
+			<nav>
+				<ul id="site-nav">
+					<li>
+						<a href="index.html">Home</a>
+					</li>
+					
+					<li>
+						<a href="blog.html">Blog</a>
+					</li>
+					
+					<li>
+						<a href="about-me.html">About Me</a>
+					</li>
+					
+					<li class="nav-active">
+						<a href="contact.html">Contact</a>
+					</li>
+				</ul>
+			</nav>
 		</header>
 		
-		<footer>
-			<ul id="socials">
-				<li>
-					<a href="https://sketchfab.com/Art_Is_Scary" target="_blank" aria-label="Link to my Sketchfab page."> <!--- sketchfab --->
-						<i class="fa-solid fa-cube"></i>
-					</a>
-				</li>
-				<li>
-					<a href="https://www.instagram.com/art_is_scaryy/?hl=en" target="_blank" aria-label="Link to my Instagram page."> <!--- instagram --->
-						<i class="fa-brands fa-instagram"></i>
-					</a>
-				</li>
-				<li>
-					<a href="https://www.artstation.com/artisscary" target="_blank" aria-label="Link to my Artstation page."> <!--- artstation --->
-						<i class="fa-brands fa-artstation"></i>
-					</a>
-				</li>
-				<li>
-					<a href="https://github.com/Ollie-Anderson" target="_blank" aria-label="Link to my GitHub page."> <!--- github --->
-						<i class="fa-brands fa-github"></i>
-					</a>
-				</li>
-				<li>
-					<a href="https://twitter.com/ArtIsScary" target="_blank" aria-label="Link to my Twitter page.">
-						<i class="fa-brands fa-twitter"></i>
-					</a>
-				</li>
-			</ul>
-		</footer>
-	</body>
-</html>
+		<div class="page-container">
+			<div class="section-container showreel-background">
+				<header class="alert-header opaque-transluscent">
+					<h2>Have a project in mind?</h2>
+					<h4>Get in touch! I'm available for colaboration or commissions.</h4>
+				</header>
+				
+				<div class="form-container opaque-transluscent">
+					<form class="contact-form">
+						<div>
+							<input class="form-left" type="text" name="name" id="fullname" placeholder="Your Name" required>
+							<input class="form-right" type="email" name="email" id="emailaddress" placeholder="someone@domain.com" required>
+							
+							<input class="form-full" type="text" name="subject" id="subject" placeholder="Subject (What's the idea)" required>
+							
+							<textarea class="form-full" placeholder="Juicy details go here..." rows="10" required></textarea>
+							
+							<input class="submit form-right" type="submit" value="send">
+						</div>
+					</form>
+				</div>
+			</div>
+			
+			<footer>
+				<ul id="socials">
+					<li>
+						<a href="https://sketchfab.com/Art_Is_Scary" target="_blank" aria-label="Link to my Sketchfab page."> <!--- sketchfab --->
+							<i class="fa-solid fa-cube"></i>
+						</a>
+					</li>
+					<li>
+						<a href="https://www.instagram.com/art_is_scaryy/?hl=en" target="_blank" aria-label="Link to my Instagram page."> <!--- instagram --->
+							<i class="fa-brands fa-instagram"></i>
+						</a>
+					</li>
+					<li>
+						<a href="https://www.artstation.com/artisscary" target="_blank" aria-label="Link to my Artstation page."> <!--- artstation --->
+							<i class="fa-brands fa-artstation"></i>
+						</a>
+					</li>
+					<li>
+						<a href="https://github.com/Ollie-Anderson" target="_blank" aria-label="Link to my GitHub page."> <!--- github --->
+							<i class="fa-brands fa-github"></i>
+						</a>
+					</li>
+					<li>
+						<a href="https://twitter.com/ArtIsScary" target="_blank" aria-label="Link to my Twitter page.">
+							<i class="fa-brands fa-twitter"></i>
+						</a>
+					</li>
+				</ul>
+			</footer>
+		</body>
+	</html>						

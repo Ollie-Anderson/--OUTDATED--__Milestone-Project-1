@@ -12,6 +12,11 @@ body {
 }
 
 
+/*--- Site-Wide Styling ---*/
+
+.opaque-transluscent {
+	background: rgba(30,30,30,0.6)
+}
 
 /*--- Header Overall Styling ---*/
 
@@ -28,6 +33,7 @@ body {
 	min-width: 950px;
 	height: 75px;
 	overflow: none;
+	z-index: 1;
 }
 
 #homepage-header{
@@ -142,8 +148,13 @@ body {
 }
 
 .section-container {
-	height: calc(100vh - 162px);
+	height: calc(100vh - 137px);
 	border-top: solid 1px #000;
+	min-height: 643px;
+}
+
+#programmer-about, #artist-about, #designer-about {
+	height: calc(100vh - 162px);
 }
 
 .section-inner {
@@ -154,6 +165,8 @@ body {
 	background-color: #191919;
 	font-size: 0px;
 }
+
+
 
 
 /*---------- Section Styling ----------*/
@@ -275,6 +288,92 @@ a.slide-next{
     -webkit-transform: rotate(-45deg);
     right: 5%;
 }
+
+
+/*--- Contact page Styling ---*/
+
+
+/*---------- Call To Action ----------*/
+
+.alert-header {
+	/* height: 60px; */
+	padding: 5px 0px;
+	padding-left: 15%;
+	color: #fff;
+	font-family: lato;
+}
+
+.alert-header h2, .alert-header h4 {
+	font-weight: 400;
+	letter-spacing: 2px;
+}
+
+.alert-header h2 {
+	text-decoration: underline;
+	padding-bottom: 5px;
+	font-size: 200%;
+}
+
+.alert-header h4 {
+	font-family: raleway;
+	margin-left: 50px;
+	font-size: 120%;
+}
+
+
+/*---------- Contact Form ----------*/
+
+.form-container {
+	box-sizing: border-box;
+	width: 60%;
+	margin: 30px auto;
+	padding: 5px;
+	border: solid 1px #000;
+	height: calc(100% - 140px);
+	min-height: calc(380px + 20%)
+}
+
+.contact-form {
+	box-sizing: border-box;
+	position: relative;
+	margin: 5%;
+	border: solid 1px #fafafa;
+	padding: 40px 25px;
+	height: calc(90% - 40px);
+	overflow: none;
+	min-height: 380px;
+}
+
+.contact-form input, .contact-form textarea {
+	box-sizing: border-box;
+	margin: 10px 0;
+	padding: 4px;
+	border-radius: 10px;
+	height: 40px;
+}
+
+.contact-form textarea {
+	height: auto;
+}
+
+.form-left, .form-right {
+	width: 45%;
+}
+
+.form-right {
+	float: right;
+}
+
+.form-left {
+	float: left;
+}
+
+.form-full {
+	clear: both;
+	width: 100%;
+}
+
+
 
 /*--- Footer Socials Styling ---*/
 
