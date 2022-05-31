@@ -15,8 +15,7 @@ body {
 /*--- Site-Wide Styling ---*/
 
 .transluscent-bg {
-	background-color: #23263e;
-	opacity: 0.85;
+	background-color: #23263ed9;
 }
 
 .opaque-gr-bg {
@@ -180,20 +179,22 @@ body {
 	height: calc(100vh - 162px);
 }
 
-.section-inner-lg {
-	margin: 30px;
+.section-inner {
+	box-sizing: border-box;
 	padding: 25px;
-	width: calc(100% - 110px);
-	height: calc(100% - 110px);
 	font-size: 0px;
 }
 
+.section-inner-lg {
+	margin: 30px;
+	width: calc(100% - 60px);
+	height: calc(100% - 60px);
+}
+
 .section-inner-sm {
-	margin: 50px;
-	padding: 25px;
-	width: calc(100% - 160px);
-	height: calc(100% - 160px);
-	font-size: 0px;
+	margin: 40px 150px;
+	width: calc(100% - 300px);
+	height: calc(100% - 80px);
 }
 
 
@@ -424,7 +425,53 @@ a.slide-next{
 }
 
 
-/*--- About Me Styling ---*/
+/*----------- About Me Styling -----------*/
+
+
+/*--- Headshot & info ---*/
+
+.headshot-container, .my-info-container {
+	box-sizing: border-box;
+	border: 1px solid #fafafa;
+	display: inline-block;
+	height: 100%;
+	vertical-align: top;
+}
+
+.my-info-container {
+	width: 75%;
+}
+
+.headshot-container {
+	width: 25%;
+}
+
+.headshot {
+	width: 100%;
+	height: 50%;
+	border: solid 1px black;
+	overflow: hidden;
+	background-image: url("../images/headshot.jpg");
+	background-size: 110%;
+	background-position: center top; 
+	background-repeat: no-repeat
+}
+
+.about-contact-info {
+	color: #fafafa;
+	font-size: 20px;
+	letter-spacing: 1px;
+	text-align: center;
+}
+
+.about-contact-info a {
+	font-family: raleway;
+	font-weight: 400;
+	display: block;
+	padding-top: 10px;
+	color: inherit;
+}
+
 
 
 
