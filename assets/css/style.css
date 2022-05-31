@@ -15,7 +15,8 @@ body {
 /*--- Site-Wide Styling ---*/
 
 .transluscent-bg {
-	background-color: #3A546CCC;
+	background-color: #23263e;
+	opacity: 0.85;
 }
 
 .opaque-gr-bg {
@@ -23,6 +24,21 @@ body {
 }
 
 .form-transluscent {
+	background: rgba(255,255,255,0.8);
+	color: #000;
+	wont-weight: 600;
+	letter spacing: 2px;
+	font-family: raleway;
+}
+
+.form-transluscent::placeholder {
+	color: #000;
+	font-weight: 600;
+	font-family: raleway;
+	letter-spacing: 2px;
+}
+
+.form-transluscent:focus {
 	background: rgba(255,255,255,0.9);
 }
 
@@ -34,7 +50,6 @@ body {
 	top: 0;
 	left: 0;
 	Background-image: url("../images/homepage/header_2.png");
-	/* background-position: center; */
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-color: #091528;
@@ -311,11 +326,11 @@ a.slide-next{
 /*---------- Call To Action ----------*/
 
 .alert-header {
-	/* height: 60px; */
 	padding: 5px 0px;
-	padding-left: 15%;
+	padding-left: calc(20% - 180px);
 	color: #fff;
 	font-family: lato;
+	height: 75px;
 }
 
 .alert-header h2, .alert-header h4 {
@@ -331,12 +346,32 @@ a.slide-next{
 
 .alert-header h4 {
 	font-family: raleway;
-	margin-left: 50px;
+	margin-left: 40px;
 	font-size: 120%;
 }
 
+.alert-header div {
+	display: inline-block;
+}
 
-/*---------- Contact Form ----------*/
+.contact-info {
+	float: right;
+	font-family: lato;
+	font-weight: 400;
+	letter-spacing: 2px;
+	font-size: 17px;
+	margin-right: 7%;
+}
+
+.contact-info a {
+	color: inherit;
+}
+
+.contact-info p {
+	margin-top: 10px;
+}
+
+/*---------- Contact Form ----------*/	
 
 .form-container {
 	box-sizing: border-box;
@@ -440,4 +475,21 @@ a.slide-next{
 #socials a {
 	text-decoration: none;
 	color: inherit;
+}
+
+
+/*-------------------- Media Queries --------------------------*/
+
+@media only screen and (min-width: 1201px) {
+	.screenSize-lg-none {
+		display: none;
+	}
+	
+}
+
+
+@media only screen and (max-width: 1200px) {
+	.screenSize-md-none {
+		display: none;
+	}
 }
