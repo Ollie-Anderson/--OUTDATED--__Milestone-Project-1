@@ -180,7 +180,7 @@ body {
 	height: calc(100vh - 162px);
 }
 
-.section-inner {
+.section-inner-lg {
 	margin: 30px;
 	padding: 25px;
 	width: calc(100% - 110px);
