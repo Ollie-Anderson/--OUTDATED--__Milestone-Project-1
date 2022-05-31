@@ -22,18 +22,10 @@ body {
 	background-color: #191919;
 }
 
-<<<<<<< HEAD
-=======
 .form-transluscent {
 	background: rgba(255,255,255,0.8);
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of 1ae14bd (updates strying)
-=======
->>>>>>> parent of 1ae14bd (updates strying)
-=======
 .form-transluscent::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
 	color: #000;
 	opacity: 1; /* Firefox */
@@ -55,7 +47,6 @@ body {
 }
 
 
->>>>>>> parent of 22f90a2 (Revert "updates strying")
 /*--- Header Overall Styling ---*/
 
 .site-header {
