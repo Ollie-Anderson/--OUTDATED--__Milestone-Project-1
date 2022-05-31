@@ -15,7 +15,7 @@ body {
 /*--- Site-Wide Styling ---*/
 
 .transluscent-bg {
-	background-color: #3A546CCC;
+	background-color: #323845CC;
 }
 
 .opaque-gr-bg {
@@ -25,13 +25,37 @@ body {
 <<<<<<< HEAD
 =======
 .form-transluscent {
-	background: rgba(255,255,255,0.9);
+	background: rgba(255,255,255,0.8);
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> parent of 1ae14bd (updates strying)
 =======
 >>>>>>> parent of 1ae14bd (updates strying)
+=======
+.form-transluscent::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+	color: #000;
+	opacity: 1; /* Firefox */
+	font-weight: 600;
+	font-family: raleway;
+	letter-spacing: 1px;
+}
+
+.form-transluscent:-ms-input-placeholder { /* Internet Explorer 10-11 */
+	color: #000;
+	font-weight: 600;
+}
+}
+
+.form-transluscent::-ms-input-placeholder { /* Microsoft Edge */
+	color: #000;
+	font-weight: 600;
+}
+}
+
+
+>>>>>>> parent of 22f90a2 (Revert "updates strying")
 /*--- Header Overall Styling ---*/
 
 .site-header {
@@ -46,7 +70,6 @@ body {
 	background-color: #091528;
 	min-width: 950px;
 	height: 75px;
-	overflow: none;
 	z-index: 2;
 }
 
@@ -141,7 +164,7 @@ body {
 
 #page-nav li {
 	display: inline-block;
-	margin: 0 20px;
+	margin: 0 60px;
 	text-align: center;
 	font-family: oswald;
 	line-height: 10px;
@@ -171,7 +194,7 @@ body {
 	height: calc(100vh - 162px);
 }
 
-.section-inner {
+.section-inner-lg {
 	margin: 30px;
 	padding: 25px;
 	width: calc(100% - 110px);
@@ -180,10 +203,11 @@ body {
 }
 
 .section-inner-sm {
-	margin: 50px;
+	box-size: border-box;
+	margin: 100px 180px;
 	padding: 25px;
-	width: calc(100% - 160px);
-	height: calc(100% - 160px);
+	width: calc(100% - 420px);
+	height: calc(100% - 250px);
 	font-size: 0px;
 }
 
@@ -255,6 +279,7 @@ body {
 	scroll-becaviour: smooth;
 	scroll-snap-type: x mandatory;
 	height: 100%;
+	scroll-margin-top: 1000px;
 }
 
 
@@ -274,8 +299,6 @@ body {
 	transform: scale(1);
 	scroll-snap-align: center;
 	border: solid 1px black;
-	
-	scroll-margin-top: 10000px;
 }
 
 .slide__text { /* this will eventually be replaced with my slide content. */
@@ -317,11 +340,15 @@ a.slide-next{
 /*---------- Call To Action ----------*/
 
 .alert-header {
-	/* height: 60px; */
 	padding: 5px 0px;
-	padding-left: 15%;
+	padding-left: calc(20% - 130px);
 	color: #fff;
 	font-family: lato;
+	height: 80px;
+}
+
+.alert-header div {
+	display: inline-block;
 }
 
 .alert-header h2, .alert-header h4 {
@@ -341,6 +368,22 @@ a.slide-next{
 	font-size: 120%;
 }
 
+
+.contact-info {
+	float: right;
+	margin-right: 5%;
+	margin-top: 10px;
+	font-size: 20px;
+	font-weight: 300;
+}
+
+.contact-info a {
+	color: inherit;
+}
+
+.contact-info p {
+	margin-bottom: 5px;
+}
 
 /*---------- Contact Form ----------*/
 
@@ -421,7 +464,6 @@ a.slide-next{
 	z-index: 2;
 }
 
-
 /*--- Footer Socials Styling ---*/
 
 #socials {
@@ -446,4 +488,17 @@ a.slide-next{
 #socials a {
 	text-decoration: none;
 	color: inherit;
+}
+
+
+@media only screen and (max-width: 1200px) {
+	.screenSize-md-none {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.screenSize-sm-none {
+		display: none;
+	}
 }
