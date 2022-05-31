@@ -107,7 +107,7 @@ body {
 	font-size: 130%;
 	list-style-type: none;
 	letter-spacing: 4px;
-	color: #fff;
+	color: #fafafa;
 	margin-top: 30px;
 	font-family: raleway;
 	font-weight: 500;
@@ -195,6 +195,7 @@ body {
 	margin: 40px 150px;
 	width: calc(100% - 300px);
 	height: calc(100% - 80px);
+	min-height: 650px;
 }
 
 
@@ -377,11 +378,10 @@ a.slide-next{
 .form-container {
 	box-sizing: border-box;
 	width: 60%;
-	margin: 30px auto;
+	margin: 40px auto;
 	padding: 5px;
 	border: solid 1px #000;
-	height: calc(100% - 140px);
-	min-height: calc(380px + 20%)
+	height: 540px;
 }
 
 .contact-form {
@@ -393,6 +393,7 @@ a.slide-next{
 	height: calc(90% - 40px);
 	overflow: none;
 	min-height: 380px;
+	max-height: 500px;
 }
 
 .contact-form input, .contact-form textarea {
@@ -428,22 +429,55 @@ a.slide-next{
 /*----------- About Me Styling -----------*/
 
 
-/*--- Headshot & info ---*/
 
 .headshot-container, .my-info-container {
 	box-sizing: border-box;
-	border: 1px solid #fafafa;
 	display: inline-block;
 	height: 100%;
 	vertical-align: top;
 }
 
+/*--- My Info ---*/
+
+
 .my-info-container {
-	width: 75%;
+	box-sizing: bordser-box;
+	font-size: 18px;
+	font-family: raleway;
+	color: #fafafa;
+	padding-left: 30px;
+	letter-spacing: 3px;
+	margin-right: 30px;
+	width: calc(75% - 30px);
+	background-color: rgba(30,30,30,0.8);
+	
 }
+
+.my-info-container h2 {
+	font-weight: 300;
+	text-decoration: underline;
+	font-size: 180%;
+	padding-top: 25px;
+	font-family: lato;
+}
+
+.my-info-container p {
+	padding: 10px 30px;
+}
+
+.my-info-container p a {
+	color: inherit;
+	font-weight: 600;
+	font-size: 110%;
+	color: #ebb336;
+}
+
+/*--- Headshot & info ---*/
+
 
 .headshot-container {
 	width: 25%;
+	min-height: 600px;
 }
 
 .headshot {
@@ -452,33 +486,70 @@ a.slide-next{
 	border: solid 1px black;
 	overflow: hidden;
 	background-image: url("../images/headshot.jpg");
-	background-size: 110%;
+	background-size: cover;
 	background-position: center top; 
 	background-repeat: no-repeat
+	
 }
 
 .about-contact-info {
+	font-family: raleway;
 	color: #fafafa;
-	font-size: 20px;
+	font-size: 18px;
 	letter-spacing: 1px;
 	text-align: center;
+	height: 20%;
 }
 
 .about-contact-info a {
-	font-family: raleway;
 	font-weight: 400;
-	display: block;
+	display: inline-block;
 	padding-top: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
 	color: inherit;
 }
 
 
+/*--- my skills ---*/
 
+.my-skills {
+	box-sizing: vorder-box;
+	height: 25%;
+	padding: 15px;
+}
+
+.skills-row-2, .skills-row-1 {
+	text-align: center;
+}
+
+.skills-row-1 div {
+	display: inline-block;
+	width: 50%;
+	vertical-align: top;
+}
+
+.skills-row-2 div {
+	display: inline-block;
+	width: 33%;
+	vertical-align: top;
+}
+
+.skills-row-2 div img, .skills-row-1 div img {
+	width: 100%;
+	height: 50px;
+	object-fit: contain;
+}
+
+.skills-row-2 div img {
+	height: 100px;
+}
 
 /*--- Showreel Background Styling ---*/
 
 .showreel-bg {
 	position: relative;
+	min-height: 750px;
 }
 
 .showreel-bg video {
@@ -517,6 +588,7 @@ a.slide-next{
 	display: inline;
 	padding: 0 40px;
 	font-size: 25px;
+	color: #dba326;
 }
 
 #socials a {
