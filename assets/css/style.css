@@ -22,6 +22,7 @@ body {
 	background-color: #191919;
 }
 
+<<<<<<< HEAD
 .form-transluscent {
 	background: rgba(255,255,255,0.8);
 }
@@ -47,6 +48,8 @@ body {
 }
 
 
+=======
+>>>>>>> parent of fc5725d (small updates)
 /*--- Header Overall Styling ---*/
 
 .site-header {
