@@ -536,11 +536,18 @@ body, html {
 
 /*-- media query for large screens --*/
 
-@media only screen and (min-width: 1281px) {
+@media only screen and (min-width: 1500px) {
 	.screenSize-lg-none {
 		display: none;
 	}
 	
+}
+
+@media only screen and (min-width: 1281px) and (max-width: 1500px) {
+	
+	.description div p {
+		font-size: 90%;
+	}
 }
 
 
