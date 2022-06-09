@@ -221,6 +221,8 @@ body, html {
 	display: inline-block;
 	height: 100%;
 	vertical-align: top;
+	font-size: 20px;
+	font-color: #fafafa;
 }
 
 .description {
@@ -243,8 +245,10 @@ body, html {
 	padding: 10px 5px;
 	font-weight: 300;
 	font-family: raleway;
-	font-size: 120%;
+	font-size: 100%;
 }
+
+
 
 /*--- Contact page Styling ---*/
 
@@ -544,8 +548,7 @@ body, html {
 
 @media only screen and (min-width: 1025px) and (max-width: 1280px) {
 	
-	
-	.article p {
+	.description div p {
 		font-size: 85%;
 	}
 }
@@ -557,8 +560,8 @@ body, html {
 		display: none;
 	}
 	
-	.article p {
-		font-size: 85%;
+	.description p {
+		font-size: 90%;
 	}
 }
 
