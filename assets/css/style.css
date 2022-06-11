@@ -54,7 +54,7 @@ body, html {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-color: #091528;
-	min-width: 950px;
+	min-width: 950px; /* there's 30px from margins added to the minimum site height here*/
 	height: 75px;
 	overflow: none;
 	z-index: 2;
@@ -585,7 +585,7 @@ body, html {
 	
 }
 
-/*----------- External Library Styling -----------*/
+/*-------------- External Library Styling --------------*/
 
 /*---- Hover.css (https://ianlunn.github.io/Hover/) ----*/
 
