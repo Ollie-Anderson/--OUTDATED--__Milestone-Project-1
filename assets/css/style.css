@@ -207,7 +207,7 @@ body, html {
 
 
 
-/*---------- Section Styling ----------*/
+/*---------- Page Section Styling ----------*/
 
 .section-about {
 	width: 30%;
@@ -217,12 +217,20 @@ body, html {
 }
 
 .section-preview {
+	box-sizing: border-box;
 	width: 70%;
 	display: inline-block;
 	height: 100%;
 	vertical-align: top;
 	font-size: 20px;
 	font-color: #fafafa;
+	padding: 20px;
+}
+
+.preview-inner {
+	box-sizing: border-box;
+	height: 100%;
+	width: 100%;
 }
 
 .description {
@@ -544,7 +552,9 @@ body, html {
 }
 
 @media only screen and (min-width: 1281px) and (max-width: 1500px) {
-	
+	.screenSize-lg-none {
+		display: none;
+	}
 	.description div p {
 		font-size: 90%;
 	}
@@ -554,7 +564,9 @@ body, html {
 /*-- media query for laptop and desktop screens --*/
 
 @media only screen and (min-width: 1025px) and (max-width: 1280px) {
-	
+	.screenSize-md-none {
+		display: none;
+	}
 	.description div p {
 		font-size: 85%;
 	}
@@ -585,11 +597,16 @@ body, html {
 	
 }
 
+.hvr-sweep-to-top::before {
+	background-color: red;
+}
+
 /*-------------- External Library Styling --------------*/
 
 /*---- Hover.css (https://ianlunn.github.io/Hover/) ----*/
 
 /* Sweep To Top */
+
 .hvr-sweep-to-top {
   display: inline-block;
   vertical-align: middle;
@@ -606,11 +623,11 @@ body, html {
   content: "";
   position: absolute;
   z-index: -1;
-  top: 0;
+  top: 80%;
   left: 0;
   right: 0;
   bottom: 0;
-  background: #2098D1;
+  background: #70707085;
   -webkit-transform: scaleY(0);
   transform: scaleY(0);
   -webkit-transform-origin: 50% 100%;
