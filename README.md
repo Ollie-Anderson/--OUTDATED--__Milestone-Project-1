@@ -24,23 +24,35 @@ This website has been created as the first milestone project for Code Institute'
 
 ## Table of Contents
 
-- [User Story](#User-Story)
-- [5 Planes](#5-Planes)
-     - [Strategy](#Strategy)
-     - [Scope](#Scope)
+- [User Experience](#User-Experience)
+
+     - [User Stories](#User-Stories)
+          - [Hiring Studios](#Game-development-studios-looking-to-hire-new-staff)
+          - [People Seeking Commissions](#Independent-Developers-looking to-commission-work)
+          - [Prospective Collaborators](#Independent-studios/Developers-looking-for-short-term-collaboration)
+          - [Site Owner](#Myself as a developer seeking out work)
+
+
+     - [Features](#wesite-features)
+       - [Pages](#pages)
+       - [External Sites](#external sites)
+       - [Documents](documents)
+       - [Functionality](#Functionality)
      - [Structure](#Structure)
      - [Skeleton](#Skeleton)
      - [Surface](#Surface)
+
 - [Testing](#Testing)
+
      - [Code Validation](#Code-Validation)
      - [Bugs](#Bugs)
 
 - [Deployment](#Deployment)
+
 - [Credits](#Credits)
      - [External Libraries](#External-Libraries)
      - [Outside Code](#outside-code)
      - [3rd Party Embedding](#3rd-party-site-embedding)
-
 
 ------
 
@@ -96,7 +108,7 @@ I need to know what areas they are most interested in working in, and where thei
 
 I also need a way of contacting the developer to discuss the potential project.
 
-##### Website Requirement's:
+##### Website Requirements:
 
 *  showcase of work
 * contact info/contact form
@@ -105,7 +117,7 @@ I also need a way of contacting the developer to discuss the potential project.
 
 ------
 
-#### Myself as a developer seeking out work.
+#### Myself as a developer seeking out work
 
 As a developer seeking work, I need this website to serve as a hub for all relevant information about me as a developer. I need potential employers or collaborators to have easy access to everything they need to asses me as a potential employee/partner through this site.
 
@@ -117,7 +129,7 @@ I need users to be able to gauge who I am as a person with context to the indust
 
 I also need this site to provide users with information on the tools i am familiar with.
 
-##### Website Requirement's:
+##### Website Requirements:
 
 * Showcase of skills
 * Social links
@@ -127,6 +139,88 @@ I also need this site to provide users with information on the tools i am famili
 * external work links (freelance sites, asset links)
 * professional documentation (CV, Showreel)
 * clear, consistent structure allowing users to find all external relevant information
+* A blog showcasing what I have worked on and what i am currently working on.
+
+------
+
+## Website Features
+
+#### Pages
+
+* Landing Page
+* Contact Page
+* Personal Profile
+* Blog {Removed due to complexity and time limitations - 28/5/22}
+* Artist-Specific gallery page.
+* Programmer-specific gallery page
+* Work History
+
+#### External Links
+
+- Instagram
+- Twitter
+- GitHub
+- LinkedIn
+- Sketchfab
+- ArtStation
+- Fiverr
+- Itch.io
+
+#### Documents
+
+- CV
+- Showreel
+
+#### Functionality
+
+- Contact me form
+- Download links for cv and showreel
+- Embedded external 3D viewer for 3D models
+- Live Email and Phone Links that open appropriate apps
+
+------
+
+## Structure
+
+#### Site Architecture
+
+------
+
+##### Pages:
+
+- Homepage - Landing page, split into three clear sections based on different disciplines. Each section has a short description and a showcase of some kind. Each links to a different page within the site.
+  - split into 3 distinct sections with an additional navigation bar for them
+  - Programmer Section -
+    - Show reel of mechanics and features I've created. Links to separate site showcasing some of the code I've written.
+    - Description of the skills i have and my focus as a programmer.
+  - Artist Section -
+    - Small gallery of models and game art I've created.
+    - Short description of my skills and focus as an artist.
+  - Designer Section -
+    - Show reel looping highlighting what I've done overall as a game developer.
+    - description of my design philosophies and the kind of projects i am interested in working on.
+- About Me 
+  - brief description of myself as a developer and a worker.
+  - headshot
+  - contact info
+  - list of tools, languages, and frameworks I've worked with
+- Contact Me
+  - Call to action
+  - contact form
+- My Work
+  - Various sections showcasing projects I've worked on with descriptions and images highlighting my roles and my work.
+- Artist Gallery Page
+  - Blog like entries showcasing artistic works of mine with descriptions and embedded content where appropriate.
+- Programmer Gallery Page
+  - Blog like entries showing off my programming skills with descriptions, code snippets, and embedded content where appropriate.
+
+------
+
+##### Navigation Bar:
+
+The site will feature a coherent navigation bar shared across all 
+
+
 
 
 
@@ -140,11 +234,21 @@ Bugs are created in '[Unresolved](#Unresolved)' as they appear and transferred t
 ## Resolved
 
 * {24/05/22} ###### **Z-Index Display Issue on Homepage Slideshow** ###### {28/05/22}
+  * attempted slideshow on homepage section previews were displaying on top of sticky header and footer elements, obscuring the content of said elements.
   * easy fix with z-index on header but I would like to find the cause of the issue if possible.
-  * fixed with z index
-  * The slideshow element that was causing the issue was eventually removed due to scroll margin issues and redesign of the sections
+  * couldn't find the cause, fixed by giving both the slideshow, and header and footer elements hierarchal z-index values
+  * The slideshow element that was causing the issue was eventually removed due to scroll margin issues and redesign of the sections.
+
 * {24/05/22} ###### **Scroll Margin Issue With Slideshow Functionality** ######{02/06/22}
-  * Removed
+  * the slides on the homepage sections are created in pure CSS (no externally sourced JavaScript) using ID links to scroll horizontally within the section. However, the scroll-margin-top property is not affecting the way they scroll, causing the page to scroll behind the header when the arrows are clicked.
+  * Feature removed. I couldn't fix the issue
+
+* {12/06/22} ###### **Overlapping Text on Homepage Section Descriptions** ###### {12/06/22}
+  * when testing and designing my site for device responsiveness, I end up with overflowing text at certain points. By design I can find no easy solution to the issues without creating a large number of media queries and potential height based media queries for the more unusually sized devices. 
+  * This issue was first discovered when transferring from my desktop PC to my surface 2 in 1. The unusual tablet ratio caused certain media queries to trigger but the text was not displaying in a clean way.
+  * fixed by creating automatic y-overflow behaviour allowing me to keep readable font sizes without sacrificing content. 
+  * Not sure how I feel about sub scrolling sections on my homepage but it's more elegant than having either wasted space or missing text.
+
 
 ## Unresolved
 
