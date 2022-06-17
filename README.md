@@ -31,22 +31,20 @@ This website has been created as the first milestone project for Code Institute'
           - [People Seeking Commissions](#Independent-Developers-looking to-commission-work)
           - [Prospective Collaborators](#Independent-studios/Developers-looking-for-short-term-collaboration)
           - [Site Owner](#Myself as a developer seeking out work)
-
-
      - [Features](#wesite-features)
-       - [Pages](#pages)
-       - [External Sites](#external sites)
-       - [Documents](documents)
-       - [Functionality](#Functionality)
+          - [Pages](#pages)
+          - [External Sites](#external sites)
+          - [Documents](documents)
+          - [Functionality](#Functionality)
      - [Structure](#Structure)
+          - [Site Architecture](#site architecture)
      - [Skeleton](#Skeleton)
      - [Surface](#Surface)
 
 - [Testing](#Testing)
-
      - [Code Validation](#Code-Validation)
      - [Bugs](#Bugs)
-
+     
 - [Deployment](#Deployment)
 
 - [Credits](#Credits)
@@ -186,7 +184,7 @@ I also need this site to provide users with information on the tools i am famili
 
 ------
 
-##### Pages
+##### Website Pages & Information Architecture
 
 - Homepage - Landing page, split into three clear sections based on different disciplines. Each section has a short description and a showcase of some kind. Each links to a different page within the site.
   - split into 3 distinct sections with an additional navigation bar for them
@@ -218,13 +216,41 @@ I also need this site to provide users with information on the tools i am famili
 
 ##### Site Navigation
 
-The site will feature a consistent navigation bar header shared across all pages. This Navigation bar will link to the Home page, About me page ,Contact page, and work history page, with a site logo (my name) that also links to home.
+The site will feature a consistent navigation bar header shared across all pages. This Navigation bar will link to the Home page, About me page, Contact page, and Work History page. There's a site logo (my name) that also links to the homepage.
 
 The artist and programmer specific gallery pages won't be linked on this header element, and will instead be accessible from their respective home page sections.
 
 In addition to this site wide navigation, the homepage will feature an extended header element, containing page specific navigation for the user to navigate the sections on this page.
 
 The work history page will feature an additional vertical timeline navigation bar on the left side of the page to allow the user to quickly and easily navigate through various projects/employers.
+
+The current page title is underlined on the navigation bar to clearly tell the user where they are in the site. This feature is reinforced by page headings on most pages.
+
+------
+
+#### External Links
+
+------
+
+##### Footer & Social Links
+
+There is a persistent footer across all pages that contains a series of icons linking to relevant social media, freelance sites, and portfolio platforms. The footer also contains my email address and phone number, and links to my CV and Showreel to keep this information readily accessible.
+
+------
+
+##### Embedded Media
+
+Where appropriate, I have included embedded external media from other sites. This is used primarily to provide interactive renders of 3D models, and blueprint code snippets. This embedded media all features links to their source and my profile on the hosting platform where applicable.
+
+------
+
+##### Downloads
+
+I have included download links to my CV and Showreel on the about me page, the contact page, and the site footer. These files are stored locally on the hosting server for easy access. 
+
+
+
+
 
 
 
