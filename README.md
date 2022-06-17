@@ -186,7 +186,7 @@ I also need this site to provide users with information on the tools i am famili
 
 ------
 
-##### Pages:
+##### Pages
 
 - Homepage - Landing page, split into three clear sections based on different disciplines. Each section has a short description and a showcase of some kind. Each links to a different page within the site.
   - split into 3 distinct sections with an additional navigation bar for them
@@ -216,9 +216,15 @@ I also need this site to provide users with information on the tools i am famili
 
 ------
 
-##### Navigation Bar:
+##### Site Navigation
 
-The site will feature a coherent navigation bar shared across all 
+The site will feature a consistent navigation bar header shared across all pages. This Navigation bar will link to the Home page, About me page ,Contact page, and work history page, with a site logo (my name) that also links to home.
+
+The artist and programmer specific gallery pages won't be linked on this header element, and will instead be accessible from their respective home page sections.
+
+In addition to this site wide navigation, the homepage will feature an extended header element, containing page specific navigation for the user to navigate the sections on this page.
+
+The work history page will feature an additional vertical timeline navigation bar on the left side of the page to allow the user to quickly and easily navigate through various projects/employers.
 
 
 
@@ -281,6 +287,10 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ## Outside Code
+
+### Responsive Top menu Navbar
+
+I have borrowed code from w3schools.com that features some basic JavaScript to make the top menu navigation bar responsive. I've used this code as I've not used the bootstrap library for the base of my code.
 
 
 
