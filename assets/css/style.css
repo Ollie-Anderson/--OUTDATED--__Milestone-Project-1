@@ -126,7 +126,7 @@ body, html {
 	color: inherit;
 }
 
-.	site-header a:hover {
+.site-header a:hover {
 	text-decoration: underline;
 }
 
@@ -134,6 +134,10 @@ body, html {
 .nav-active {
 	text-decoration: underline;
 	
+}
+
+.nav-menu-icon {
+	display: none;
 }
 
 /*--- Page Navigation styling ---*/
@@ -305,6 +309,7 @@ body, html {
 /*---------- Call To Action ----------*/
 
 .alert-header {
+	box-sizing: border-box;
 	padding: 5px 0px;
 	padding-left: calc(20% - 180px);
 	color: #fff;
